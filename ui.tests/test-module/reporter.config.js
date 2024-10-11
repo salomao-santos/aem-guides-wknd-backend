@@ -1,5 +1,5 @@
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2023 Adobe Systems Incorporated
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13,28 +13,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.adobe.aem.guides.wknd.core.models;
 
-import java.util.List;
+const reportsPath = process.env.REPORTS_PATH || 'cypress/results'
 
-/**
- * Represents the Byline AEM Component for the WKND Site project.
- **/
-public interface Byline {
-	/***
-	 * @return a string to display as the name.
-	 */
-	String getName();
-
-	/***
-	 * Occupations are to be sorted alphabetically in a descending order.
-	 *
-	 * @return a list of occupations.
-	 */
-	List<String> getOccupations();
-
-	/***
-	 * @return a boolean if the component has content to display.
-	 */
-	boolean isEmpty();
+module.exports = {
+  reporterEnabled: 'spec, mocha-junit-reporter',
+  mochaJunitReporterReporterOptions: {
+    mochaFile: `${reportsPath}/output.[hash].xml`
+  }
 }

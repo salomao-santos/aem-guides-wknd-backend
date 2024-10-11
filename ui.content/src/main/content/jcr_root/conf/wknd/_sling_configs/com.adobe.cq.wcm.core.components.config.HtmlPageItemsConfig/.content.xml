@@ -1,70 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-10-11T02:13:16.231Z"
+        cq:lastReplicated_preview="{Date}2024-10-11T02:13:16.231Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_preview="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
         jcr:primaryType="cq:PageContent"
+        jcr:uuid="558da07f-9885-417f-8f8c-81e85978019f"
         prefixPath="/content/aem-site-template-standard.theme/_default">
         <items
+            cq:isDelivered="{Boolean}false"
+            cq:lastReplicated="{Date}2024-10-11T02:13:20.631Z"
+            cq:lastReplicated_preview="{Date}2024-10-11T02:13:20.631Z"
+            cq:lastReplicatedBy="admin"
+            cq:lastReplicatedBy_preview="admin"
+            cq:lastReplicationAction="Activate"
+            cq:lastReplicationAction_preview="Activate"
+            jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
             jcr:primaryType="nt:unstructured">
             <css
+                cq:isDelivered="{Boolean}false"
+                cq:lastReplicated="{Date}2024-10-11T02:13:24.836Z"
+                cq:lastReplicated_preview="{Date}2024-10-11T02:13:24.836Z"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_preview="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_preview="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                 jcr:primaryType="nt:unstructured"
                 element="link"
                 location="header">
                 <attributes
+                    cq:isDelivered="{Boolean}false"
+                    cq:lastReplicated="{Date}2024-10-11T02:13:28.768Z"
+                    cq:lastReplicated_preview="{Date}2024-10-11T02:13:28.768Z"
+                    cq:lastReplicatedBy="admin"
+                    cq:lastReplicatedBy_preview="admin"
+                    cq:lastReplicationAction="Activate"
+                    cq:lastReplicationAction_preview="Activate"
+                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                     jcr:primaryType="nt:unstructured">
                     <as
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:13:33.208Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:13:33.208Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="as"
                         value="style"/>
                     <href
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:13:37.716Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:13:37.716Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="href"
                         value="/theme/site.css"/>
                     <rel
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:13:42.497Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:13:42.497Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="rel"
                         value="preload stylesheet"/>
                     <type
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:13:46.403Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:13:46.403Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="type"
                         value="text/css"/>
                 </attributes>
             </css>
             <javascript
+                cq:isDelivered="{Boolean}false"
+                cq:lastReplicated="{Date}2024-10-11T02:13:53.434Z"
+                cq:lastReplicated_preview="{Date}2024-10-11T02:13:53.434Z"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_preview="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_preview="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                 jcr:primaryType="nt:unstructured"
                 element="script"
                 location="header">
                 <attributes
+                    cq:isDelivered="{Boolean}false"
+                    cq:lastReplicated="{Date}2024-10-11T02:13:58.141Z"
+                    cq:lastReplicated_preview="{Date}2024-10-11T02:13:58.141Z"
+                    cq:lastReplicatedBy="admin"
+                    cq:lastReplicatedBy_preview="admin"
+                    cq:lastReplicationAction="Activate"
+                    cq:lastReplicationAction_preview="Activate"
+                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                     jcr:primaryType="nt:unstructured">
                     <src
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:02.341Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:02.341Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="src"
                         value="/theme/js/site.js"/>
                     <async
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:10.458Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:10.458Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="async"
                         value="true"/>
                     <type
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:14.642Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:14.642Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="type"
                         value="text/javascript"/>
                 </attributes>
             </javascript>
             <favicon
+                cq:isDelivered="{Boolean}false"
+                cq:lastReplicated="{Date}2024-10-11T02:14:19.811Z"
+                cq:lastReplicated_preview="{Date}2024-10-11T02:14:19.811Z"
+                cq:lastReplicatedBy="admin"
+                cq:lastReplicatedBy_preview="admin"
+                cq:lastReplicationAction="Activate"
+                cq:lastReplicationAction_preview="Activate"
+                jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                 jcr:primaryType="nt:unstructured"
                 element="link"
                 location="header">
                 <attributes
+                    cq:isDelivered="{Boolean}false"
+                    cq:lastReplicated="{Date}2024-10-11T02:14:24.346Z"
+                    cq:lastReplicated_preview="{Date}2024-10-11T02:14:24.346Z"
+                    cq:lastReplicatedBy="admin"
+                    cq:lastReplicatedBy_preview="admin"
+                    cq:lastReplicationAction="Activate"
+                    cq:lastReplicationAction_preview="Activate"
+                    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                     jcr:primaryType="nt:unstructured">
                     <href
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:30.243Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:30.243Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="href"
                         value="/theme/images/favicons/favicon-32.png"/>
                     <rel
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:34.455Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:34.455Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="rel"
                         value="icon"/>
                     <type
+                        cq:isDelivered="{Boolean}false"
+                        cq:lastReplicated="{Date}2024-10-11T02:14:38.684Z"
+                        cq:lastReplicated_preview="{Date}2024-10-11T02:14:38.684Z"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicatedBy_preview="admin"
+                        cq:lastReplicationAction="Activate"
+                        cq:lastReplicationAction_preview="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
                         jcr:primaryType="nt:unstructured"
                         name="type"
                         value="image/png"/>

@@ -1,12 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          jcr:primaryType="nt:unstructured">
-    <com.adobe.cq.wcm.core.components.internal.DataLayerConfig
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    cq:isDelivered="{Boolean}false"
+    cq:lastReplicated="{Date}2024-10-11T02:12:49.829Z"
+    cq:lastReplicated_preview="{Date}2024-10-11T02:12:49.829Z"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicatedBy_preview="admin"
+    cq:lastReplicationAction="Activate"
+    cq:lastReplicationAction_preview="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2,rep:AccessControllable]"
+    jcr:primaryType="nt:unstructured">
+    <com.adobe.aem.wcm.site.manager.config.SiteConfig
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-10-11T02:13:04.874Z"
+        cq:lastReplicated_preview="{Date}2024-10-11T02:13:04.874Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_preview="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="nt:unstructured"
-        enabled="{Boolean}true"
-    />
+        siteTemplatePath="/libs/wcm/core/site-templates/aem-site-template-stub-2.0.0"
+        themePackageName="wknd"/>
+    <com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig/>
+    <com.adobe.cq.wcm.core.components.internal.DataLayerConfig
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-10-11T02:15:06.845Z"
+        cq:lastReplicated_preview="{Date}2024-10-11T02:15:06.845Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_preview="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="nt:unstructured"
+        enabled="{Boolean}true"/>
     <com.adobe.cq.wcm.core.components.internal.services.pdfviewer.PdfViewerCaConfig
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2024-10-11T02:15:10.727Z"
+        cq:lastReplicated_preview="{Date}2024-10-11T02:15:10.727Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_preview="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
         jcr:primaryType="nt:unstructured"
         clientId="28b07c6be4d544f188dc2f36e33b196b"
-        reportSuiteId=""/>
+        reportSuiteId="\0"/>
+    <rep:policy/>
 </jcr:root>
