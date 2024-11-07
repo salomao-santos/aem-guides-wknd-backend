@@ -20,7 +20,7 @@
           "panel": "shared",
           "clear": true
         },
-        "command": "cd core && mvn clean install -PautoInstallBundle -X",
+        "command": "mvn clean install -PautoInstallBundle -pl core -X",
         "problemMatcher": []
       },
       {
@@ -31,7 +31,7 @@
           "panel": "shared",
           "clear": true
         },
-        "command": "cd ui.apps && mvn clean install -PautoInstallPackage cd ..",
+        "command": "mvn clean install -PautoInstallPackage -pl ui.apps",
         "problemMatcher": []
       },
   
@@ -43,7 +43,7 @@
           "panel": "shared",
           "clear": true
         },
-        "command": "cd ui.content && mvn clean install -PautoInstallPackage",
+        "command": "mvn clean install -PautoInstallPackage -pl ui.content",
         "problemMatcher": []
       },
   
